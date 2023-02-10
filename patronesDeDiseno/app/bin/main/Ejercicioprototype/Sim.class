@@ -1,0 +1,16 @@
+package ejercicioPrototype;
+
+public class Sim {
+    private java.lang.String nombreEmpresaTel;
+    private java.lang.String numeroTelefono;
+
+    public Sim(java.lang.String nombreEmpresaTel, java.lang.String numeroTelefono) { /* compiled code */ }
+
+    public java.lang.String getNombreEmpresaTel() { /* compiled code */ }
+
+    public void setNombreEmpresaTel(java.lang.String nombreEmpresaTel) { /* compiled code */ }
+
+    public java.lang.String getNumeroTelefono() { /* compiled code */ }
+
+    public void setNumeroTelefono(java.lang.String numeroTelefono) { /* compiled code */ }
+}
