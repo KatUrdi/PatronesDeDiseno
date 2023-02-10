@@ -1,0 +1,24 @@
+package ejercicioPrototype;
+
+public class Accesorios {
+    private boolean audifonos;
+    private boolean cargador;
+    private boolean estuche;
+   
+
+    public Accesorios(boolean audifonos, boolean cargador, boolean estuche, boolean stylus) { /* compiled code */ }
+
+    public boolean isAudifonos() { /* compiled code */ }
+
+    public void setAudifonos(boolean audifonos) { /* compiled code */ }
+
+    public boolean isCargador() { /* compiled code */ }
+
+    public void setCargador(boolean cargador) { /* compiled code */ }
+
+    public boolean isEstuche() { /* compiled code */ }
+
+    public void setEstuche(boolean estuche) { /* compiled code */ }
+
+    public void show() { /* compiled code */ }
+}
