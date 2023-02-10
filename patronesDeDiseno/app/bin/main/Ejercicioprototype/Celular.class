@@ -1,0 +1,26 @@
+package ejercicioPrototype;
+
+public class Celular implements ejercicioPrototype.ICelular {
+    private java.lang.String marca;
+    private java.lang.String modelo;
+    private java.lang.String tamano;
+    private int cpu;
+    private java.lang.String memory;
+    private ejercicioPrototype.Sim sim;
+    private java.lang.String versionAndroid;
+    private int camara;
+    private boolean bluetooth;
+    private int cantidadDeMemoriasExternas;
+    private java.lang.String tiempoUsoBateria;
+    private ejercicioPrototype.Accesorios accesorios;
+
+    public ejercicioPrototype.Sim getSim() { /* compiled code */ }
+
+    public void setSim(ejercicioPrototype.Sim sim) { /* compiled code */ }
+
+    public Celular(java.lang.String marca, java.lang.String modelo, java.lang.String tamano, int cpu, java.lang.String memory, java.lang.String versionAndroid, int camara, boolean bluetooth, int cantidadDeMemoriasExternas, java.lang.String tiempoUsoBateria, ejercicioPrototype.Accesorios accesorios) { /* compiled code */ }
+
+    public java.lang.Object clone() { /* compiled code */ }
+
+    public void show() { /* compiled code */ }
+}
