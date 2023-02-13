@@ -1,16 +1,16 @@
 package factoryMethod.ejercicioFactoryMethod;
 
-public class PasajeSolidarioConcreteCreator extends CreatorPasaje{
+public class PasajeSolidarioConcreteCreator extends PasajeCreator{
 
     private PasajeSolidario pasaje = new PasajeSolidario();
 
     @Override
     public Pasaje1 createPasaje(Pasajero pasajero, String numeroAsiento) {
-        pasaje.setAvion(new Avion("MOPAR", "1 ton", "AK-45", 100));
-        pasaje.setCostoPasaje("850 US");
-        pasaje.setOrigen(new Lugar("Japon", "Tokyo", "Aeropueto Internacional de Tokyo"));
-        pasaje.setDestino(new Lugar("Irlanda", "Dublin", "Aeropuerto Internacional de Dublin"));
-        pasaje.setNumeroVuelo("123AJ");
+        pasaje.setAvion(new Avion("Boeing", "1.5 ton", "747", 120));
+        pasaje.setCostoEspecial("120 US");
+        pasaje.setOrigen(new Lugar("España", "Madrid", "Aeropueto Internacional de Madrid"));
+        pasaje.setDestino(new Lugar("Bolivia", "La Paz", "Aeropuerto Internacional del Alto"));
+        pasaje.setNumeroVuelo("680AB");
         pasaje.setNumeroAsiento(numeroAsiento);
         pasaje.setPasajero(pasajero);
         pasajeSolidario(0.5, "Discapacidad");
