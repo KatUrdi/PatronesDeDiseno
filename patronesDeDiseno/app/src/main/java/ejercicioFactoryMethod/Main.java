@@ -2,14 +2,14 @@ package factoryMethod.ejercicioFactoryMethod;
 
 public class Main {
     public static void main(String[] args) {
-        PasajeStandard st1 = (PasajeStandard) new PasajeStandartConcreteCreator().createPasaje(new Pasajero("Josue Nazaret", "251200"), "A1");
-        PasajeStandard st2 = (PasajeStandard) new PasajeStandartConcreteCreator().createPasaje(new Pasajero("Alba Nazaret", "861200"), "A2");
+        PasajeStandart st1 = (PasajeStandart new PasajeStandartConcreteCreator().createPasaje(new Pasajero("Fabiola Arroyo", "785296"), "F18");
+        PasajeStandart st2 = (PasajeStandart new PasajeStandartConcreteCreator().createPasaje(new Pasajero("Claudia Arroyo", "102659"), "F19");
 
-        PasajeSolidario so1 = (PasajeSolidario) new PasajeSolidarioConcreteCreator().createPasaje(new Pasajero("Jose Luis Roncha", "126232"), "F3");
-        PasajeSolidario so2 = (PasajeSolidario) new PasajeSolidarioConcreteCreator().createPasaje(new Pasajero("Luis Miguel Roncha", "126227"), "J3");
+        PasajeSolidario so1 = (PasajeSolidario) new PasajeSolidarioConcreteCreator().createPasaje(new Pasajero("Roque Olivez", "960036", "K2");
+        PasajeSolidario so2 = (PasajeSolidario) new PasajeSolidarioConcreteCreator().createPasaje(new Pasajero("Camila Rojas", "4890003", "K6");
 
-        PasajeInfantil in1 = (PasajeInfantil) new PasajeInfantilConcreteCreator().createPasaje(new Pasajero("Roberto Sanjinez", "1237824"), "H2");
-        PasajeInfantil in2 = (PasajeInfantil) new PasajeInfantilConcreteCreator().createPasaje(new Pasajero("Aquiles Illanes", "122134784"), "G5");
+        PasajeInfantil in1 = (PasajeInfantil) new PasajeInfantilConcreteCreator().createPasaje(new Pasajero("Andrea CLaure", "45980336", "L15");
+        PasajeInfantil in2 = (PasajeInfantil) new PasajeInfantilConcreteCreator().createPasaje(new Pasajero("Mateo Claure", "666218", "L14");
 
         st1.show();
         st2.show();
