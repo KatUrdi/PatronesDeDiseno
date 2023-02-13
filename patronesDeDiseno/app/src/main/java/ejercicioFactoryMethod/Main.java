@@ -17,8 +17,8 @@ public class Main {
         so1.show();
         so2.show();
 
-        i1.show();
-        i2.show();
+        in1.show();
+        in2.show();
 
     }
 }
