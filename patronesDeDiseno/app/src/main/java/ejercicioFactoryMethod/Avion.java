@@ -1,4 +1,4 @@
-package factoryMethod.ejercicioFactory;
+package factoryMethod.ejercicioFactoryMethod;
 
 public class Avion {
     private String marca;
